@@ -8,6 +8,7 @@ p {
     text-align: justify;
     text-indent: 50px;
 }
+/*Formatação imagem*/
 
 figure.foto-legenda{
 	position: relative;
@@ -36,4 +37,25 @@ figure.foto-legenda figcaption{
 
 figure.foto-legenda:hover figcaption {
     opacity: 1;
+}
+
+/*Formatação do menu*/
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left:900px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddddd;
+    padding: 20px;
+    margin: 2px;
+
 }
