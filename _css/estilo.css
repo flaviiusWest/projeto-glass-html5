@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
 body {
-    background-color: white;
+    background-color: #dddddddd;
     color: rgba(0, 0,0,1);
+}
+div#interface{
+  background-color: #ffffffff;
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  padding: 40px 10px 10px 10px;
+
 }
 p {
     text-align: justify;
     text-indent: 50px;
 }
+
+header cabecalho img#icone {
+  position: absolute;
+
+}
+
 /*Formatação imagem*/
 
 figure.foto-legenda{
@@ -49,7 +62,7 @@ nav#menu ul {
         text-transform: uppercase;
         position: absolute;
         top: -25px;
-        left: 950px;
+        left: 600px;
 }
     nav#menu li {
         display: inline-block;
@@ -71,7 +84,6 @@ nav#menu a {
   color: #000000;
   text-decoration: none;
 }
-
 nav#menu a:hover{
   color: white;
   text-decoration: underline;
